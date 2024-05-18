@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    position: relative;
+}
+.head{
+    width: 100%;
+    color: white;
+    height: 500px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.mercer.com/assets/global/en/mercer-brand/full-bleed-images/2880x1620/editorial-1374712117-woman-at-laptop-2880x1620.jpg);
+}
+.title{
+    height: 12%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: orangered;
+}
+.content{
+    height:88% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fill{
+    height: 10%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.fill>button{
+    width: 35%;
+    height: auto;
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+.up{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: orangered;
+}
+.opts{
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    background-color: orangered;
+}
+.opts>i{
+    font-size: 70px;
+    color: white;
+    gap: 20px;
+}
+.opts>h5{
+    font-size: 20px;
+}
+.down{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.sub{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    background-color: orangered;
+    justify-content: center;
+}
+.options{
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: white;
+    text-align: center;
+    background-color: orangered;
+}
+.options>h3{
+    font-size: 30px;
+}
+.options>i{
+    font-size: 30px;
+}
+.contact{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact>i{
+    font-size: 110px;
+    color: gray;
+    background-color: white;
+}
+.pic{
+    width: 5%;
+    height: 15%;
+    border-radius: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0IlmY-P2vHUpmifal0W0ZerE8yrZzSgPIL2zGys_1EQ&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bottom{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.filll{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://t3.ftcdn.net/jpg/03/14/82/46/240_F_314824699_A4SzRdU3Xh9nWnzzXf4Fo71DMAGXsDXs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 15px;
+}
+.close{
+    height: 10%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.close>button{
+    width: 35%;
+    height: auto;
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+.foot{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    width: 100%;
+    background-color: white;
+}
+.center{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tube{
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    background-image: url(https://i.ytimg.com/an_webp/GvNEYF-cm5k/mqdefault_6s.webp?du=3000&sqp=CKaq0rEG&rs=AOn4CLBQbqIMieGb1PGowD7qYkkIW8MuZg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tit{
+    width: 25%;
+    height: 250px;
+    background-color: orangered;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    z-index: 3;
+    top: 350px;
+    justify-content: center;
+    right: 0px;
+}
+.comment{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.com{
+    width: 20%;
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://live-chat-static.sprinklr.com/chat/public/assets/agent-profile-2.png);
+}
+.comment>button{
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    height: 18%;
+    border: none;
+    border-radius: 10px;
+}

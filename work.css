@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parent{
+    width: 60%;
+    height: 80%;
+    padding-top: 40px;
+    background-color: whitesmoke;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.startup{
+    width: 50%;
+    height: 20%;
+    font-size: 15px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: whitesmoke;
+    text-align: center;
+    
+}
+.options{
+    width: 100%;
+    height: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}
+.intercom{
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+}
+.fs{
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+}
+.hot{
+    width: 30%;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+}
+.intercom>i{
+    font-size: 40px;
+    color: rgb(55, 103, 235);
+}
+.fs>i{
+    font-size: 40px;
+    color: palevioletred;
+}
+.hot>i{
+    color: red;
+    font-size: 40px;
+}
+.hot>h5{
+    font-size: 11px;
+}
+.hot>p{
+    font-size: 9px;
+}
+.intercom>h5{
+    font-size: 11px;
+}
+.intercom>p{
+    font-size: 9px;
+}
+.startup>h2{
+    font-size: 20px;
+}
+.fs>h5{
+    font-size: 11px;
+}
+.fs>p{
+    font-size: 9px;
+}
+.startup>p{
+    font-size: 9px;
+}
+.hot>button{
+    border: none;
+    border-radius: 30px;
+    width: 50%;
+    height: 15%;
+    font-size: 10px;
+}
+.intercom>button{
+    border: none;
+    border-radius: 30px;
+    width: 50%;
+    height: 15%;
+    font-size: 10px;
+}
+.fs>button{
+    border: none;
+    border-radius: 30px;
+    width: 50%;
+    height: 15%;
+    font-size: 10px;
+}
+.parent>button{
+    border: none;
+    align-self: center;
+    border-radius: 30px;
+    background-color: rgb(235, 233, 230);
+    width: 12%;
+    height: 7%;
+    font-size: 10px;
+
+}
